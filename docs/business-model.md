@@ -196,17 +196,41 @@ O sucesso da plataforma poderá ser acompanhado por indicadores como:
 
 ---
 
-# 13. Riscos
+# 13. Riscos e Estratégia de Mitigação
 
-Os principais riscos identificados incluem:
+O ambiente de comércio internacional é altamente dinâmico e está sujeito a alterações constantes.
 
-* alterações frequentes na legislação tributária;
-* mudanças em políticas de importação;
-* volatilidade cambial;
-* dependência de serviços externos para cotações e integrações;
-* necessidade contínua de atualização das regras fiscais.
+Os principais fatores que podem impactar as operações são:
 
-A arquitetura modular do sistema busca minimizar esses impactos por meio de componentes independentes e facilmente atualizáveis.
+* alterações na legislação tributária;
+* mudanças nas políticas de importação e exportação;
+* variações cambiais;
+* oscilações nos custos logísticos;
+* alterações em tarifas alfandegárias;
+* mudanças nos Incoterms;
+* alterações em acordos comerciais internacionais;
+* indisponibilidade temporária de serviços externos;
+* mudanças em APIs públicas e privadas.
+
+Para reduzir esses riscos, o **Mercatvs ImportTrade** adota uma arquitetura baseada em **Robôs Sensores**, componentes especializados responsáveis pelo monitoramento contínuo das diversas fontes de informação utilizadas pelo sistema.
+
+Cada robô possui responsabilidades específicas e opera de forma independente, permitindo detectar alterações, validar informações e atualizar automaticamente a base de conhecimento da plataforma.
+
+Entre os robôs previstos estão:
+
+* **Sensor Tributário** — monitora alterações em impostos, NCM, regimes tributários e normas fiscais.
+* **Sensor Cambial** — acompanha cotações de moedas e indicadores financeiros.
+* **Sensor Logístico** — monitora custos de frete, disponibilidade de rotas e prazos de transporte.
+* **Sensor Aduaneiro** — acompanha mudanças em procedimentos e regulamentações aduaneiras.
+* **Sensor Legislativo** — identifica publicações de leis, decretos, portarias e instruções normativas relevantes.
+* **Sensor Econômico** — acompanha indicadores macroeconômicos que possam impactar custos e preços.
+* **Sensor de Mercado** — coleta informações sobre fornecedores, preços internacionais e tendências de mercado.
+* **Sensor Tecnológico** — monitora integrações, APIs e serviços utilizados pela plataforma.
+
+Os dados coletados pelos Robôs Sensores passam por processos de validação antes de serem incorporados ao sistema, garantindo maior confiabilidade e rastreabilidade das informações.
+
+Essa arquitetura reduz a dependência de atualizações manuais, melhora a capacidade de adaptação às mudanças do ambiente de negócios e permite que o Mercatvs ImportTrade mantenha suas regras de cálculo, indicadores e simulações continuamente alinhados às condições reais do mercado.
+
 
 ---
 
