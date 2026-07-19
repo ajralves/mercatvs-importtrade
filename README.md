@@ -151,46 +151,111 @@ tests/
 
 # Como ler este projeto
 
-Para facilitar o entendimento da arquitetura e da evolução do sistema, recomenda-se a seguinte ordem de leitura da documentação:
+Para compreender a proposta, a arquitetura e a evolução do **Mercatvs ImportTrade**, recomenda-se a seguinte ordem de leitura da documentação.
 
-### 1. README.md
+## 1. README.md
 
-Apresenta uma visão geral do projeto.
-
----
-
-### 2. docs/vision.md
-
-Descreve a visão do produto, sua missão e os objetivos estratégicos.
+Apresenta uma visão geral do projeto, seus objetivos, tecnologias, arquitetura e organização do repositório.
 
 ---
 
-### 3. docs/business-model.md
+## 2. docs/vision.md
 
-Explica o problema de negócio, o público-alvo e a proposta de valor.
+Descreve a visão estratégica do produto, sua missão, propósito, valores e objetivos de longo prazo.
 
----
+**Pergunta respondida:**
 
-### 4. docs/software-specification.md
-
-Apresenta todos os requisitos funcionais e não funcionais do sistema.
+> Por que este projeto existe?
 
 ---
 
-### 5. docs/software-architecture.md
+## 3. docs/business-model.md
 
-Detalha a arquitetura completa, tecnologias adotadas e decisões de projeto.
+Apresenta o modelo de negócio, público-alvo, proposta de valor, diferenciais competitivos e estratégia de comercialização.
+
+**Pergunta respondida:**
+
+> Como o produto gera valor?
 
 ---
 
-### 6. docs/architecture/
+## 4. docs/software-specification.md
 
-Contém os diagramas do Modelo C4:
+Define todos os requisitos funcionais, não funcionais, regras de negócio e restrições técnicas da plataforma.
+
+**Pergunta respondida:**
+
+> O que o sistema deve fazer?
+
+---
+
+## 5. docs/domain-model.md
+
+Modela o domínio do negócio, descrevendo os principais conceitos, entidades, agregados, regras, serviços de domínio e relacionamentos.
+
+Este documento estabelece a linguagem ubíqua (*Ubiquitous Language*) utilizada por toda a equipe de desenvolvimento.
+
+**Pergunta respondida:**
+
+> Quais são os conceitos fundamentais do negócio?
+
+---
+
+## 6. docs/software-architecture.md
+
+Descreve a arquitetura da solução, tecnologias empregadas, organização em camadas, módulos e componentes.
+
+**Pergunta respondida:**
+
+> Como o sistema será implementado?
+
+---
+
+## 7. docs/architecture/
+
+Contém os diagramas arquiteturais baseados no Modelo C4.
 
 * Contexto
 * Containers
 * Componentes
 * Código
+
+---
+
+## 8. docs/database/
+
+Documentação do modelo de dados.
+
+---
+
+## 9. docs/api/
+
+Especificação das APIs REST e WebSocket.
+
+---
+
+## 10. docs/taxation/
+
+Motor tributário.
+
+---
+
+## 11. docs/pricing/
+
+Motor de formação de preços.
+
+---
+
+## 12. docs/logistics/
+
+Processos logísticos e regras de importação.
+
+---
+
+## 13. ROADMAP.md
+
+Planejamento da evolução do projeto.
+
 
 ---
 
