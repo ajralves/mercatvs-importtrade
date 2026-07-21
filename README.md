@@ -357,13 +357,30 @@ GitHub: https://github.com/ajralves
 
 # Contribuição
 
-Contribuições são bem-vindas.
+Contribuições são bem-vindas e ajudam a tornar o **Mercatvs ImportTrade** uma plataforma cada vez mais robusta para análise de custos de importação, formação de preços e inteligência em comércio internacional.
 
-Leia primeiro:
+Antes de contribuir, recomendamos a leitura dos documentos abaixo:
 
-* CONTRIBUTING.md
-* CODE_OF_CONDUCT.md
-* SECURITY.md
+| Documento              | Descrição                                                                                                                      |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| **CONTRIBUTING.md**    | Guia de contribuição, fluxo de desenvolvimento, padrões de código e processo para envio de *Pull Requests*.                    |
+| **CODE_OF_CONDUCT.md** | Código de Conduta que estabelece os princípios de convivência, respeito e colaboração entre todos os participantes do projeto. |
+| **SECURITY.md**        | Política de Segurança, incluindo o processo para comunicação responsável de vulnerabilidades e tratamento de incidentes.       |
+
+## Como contribuir
+
+As contribuições podem incluir:
+
+* desenvolvimento de novas funcionalidades;
+* correção de defeitos;
+* melhoria da documentação;
+* otimização de desempenho;
+* implementação de testes automatizados;
+* aprimoramento da arquitetura;
+* sugestões de novas regras de negócio;
+* melhorias nos Agentes Sensores.
+
+Toda contribuição será analisada por meio do processo de revisão de código (*Code Review*) antes de sua integração ao projeto.
 
 ---
 
