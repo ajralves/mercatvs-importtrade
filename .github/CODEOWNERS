@@ -1,0 +1,173 @@
+# ==========================================================
+# Mercatvs ImportTrade
+# CODEOWNERS
+#
+# Automatic Pull Request Review Assignment
+#
+# Architecture:
+# - Frontend (Vue/Vite)
+# - API (NestJS)
+# - Rust Business Engine
+# - PostgreSQL/Prisma
+# - Domain Bounded Contexts
+# ==========================================================
+
+
+# ==========================================================
+# Default Owner
+# ==========================================================
+
+* @ajralves
+
+
+# ==========================================================
+# Project Governance
+# ==========================================================
+
+README.md @ajralves
+ROADMAP.md @ajralves
+CHANGELOG.md @ajralves
+
+CODE_OF_CONDUCT.md @ajralves
+CONTRIBUTING.md @ajralves
+SECURITY.md @ajralves
+LICENSE @ajralves
+
+
+# ==========================================================
+# GitHub Configuration
+# ==========================================================
+
+/.github/ @ajralves
+
+
+# ==========================================================
+# Product Documentation
+# ==========================================================
+
+/docs/ @ajralves
+
+
+# Product Vision and Strategy
+
+/docs/vision.md @ajralves
+
+/docs/business-model.md @ajralves
+
+
+# Software Specification
+
+/docs/software-specification.md @ajralves
+
+
+# Domain Model
+
+/docs/domain-model.md @ajralves
+
+
+# ==========================================================
+# Domain Bounded Contexts
+# ==========================================================
+
+# Taxation Domain
+
+/docs/taxation/ @ajralves
+
+
+# Logistics Domain
+
+/docs/logistics/ @ajralves
+
+
+# Pricing Domain
+
+/docs/pricing/ @ajralves
+
+
+# Database Domain Model
+
+/docs/database/ @ajralves
+
+
+# ==========================================================
+# Architecture Documentation
+# ==========================================================
+
+/docs/architecture/ @ajralves
+
+/docs/software-architecture.md @ajralves
+
+
+# ==========================================================
+# Application Layer
+# ==========================================================
+
+# NestJS API
+
+/apps/api/ @ajralves
+
+
+# API Business Modules
+
+/apps/api/src/modules/ @ajralves
+
+
+# Frontend Application
+
+/apps/frontend/ @ajralves
+
+
+# ==========================================================
+# Core Business Engine
+# ==========================================================
+
+# Rust computational engine
+
+/packages/rust-engine/ @ajralves
+
+
+# ==========================================================
+# Shared Platform Packages
+# ==========================================================
+
+/packages/shared/ @ajralves
+
+/packages/sdk/ @ajralves
+
+/packages/ui/ @ajralves
+
+
+# ==========================================================
+# Database and Persistence
+# ==========================================================
+
+/database/ @ajralves
+
+
+# ==========================================================
+# Infrastructure
+# ==========================================================
+
+/docker/ @ajralves
+
+docker-compose.yml @ajralves
+
+
+# ==========================================================
+# Development Automation
+# ==========================================================
+
+/scripts/ @ajralves
+
+Makefile @ajralves
+
+turbo.json @ajralves
+
+pnpm-workspace.yaml @ajralves
+
+
+# ==========================================================
+# Quality Assurance
+# ==========================================================
+
+/tests/ @ajralves
